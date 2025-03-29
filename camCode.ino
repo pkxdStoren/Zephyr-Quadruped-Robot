@@ -4,6 +4,10 @@
 const char* ssid = "Your-WiFi-SSID";
 const char* password = "Your-WiFi-Password";
 
+#define FLAME_SENSOR_PIN 15
+#define DHTPIN 14
+#define DHTTYPE DHT11
+
 AsyncWebServer server(80);
 
 void setup() {
